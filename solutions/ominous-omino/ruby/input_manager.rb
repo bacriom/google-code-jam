@@ -1,6 +1,4 @@
 class InputManager
-
-
   def initialize(file_name)
     File.open(file_name) do |file|
       if(@totalCases = file.gets)
